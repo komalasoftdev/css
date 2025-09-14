@@ -21,6 +21,7 @@
     </style>
 </head>
 <body>
+    <table>
     <tr>
         <th>header 1</th>
         <th>header 2</th>
@@ -36,5 +37,103 @@
         <td>data 5</td>
         <td>data 6</td>
     </tr>
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th{
+            background-color: blue;
+            color:bisque;
+        }
+            tr:nth-child(even){
+                background-color: lightcyan;
+            }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>header 1</th>
+            <th>header 2</th>
+            <th>header 3</th>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+       </tr>
+       <tr>
+        <td>data 4</td>
+        <td>data 5</td>
+        <td>data 6</td>
+       </tr>
+       <tr>
+       <td>data 7</td>
+       <td>data 8</td>
+       <td>data 9</td>
+       </tr>
+    </table>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid green;
+            padding: 8px;
+            text-align: center;
+        }
+        th{
+            background-color: lightgreen;
+            color:gray;
+        }
+        .highlight{
+            background-color: hotpink;
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>header 1</th>
+            <th>header 2</th>
+            <th>header 3</th>
+        </tr>
+        <tr>
+        <td>data 1</td>
+        <td>data 2</td>
+        <td>data 3</td>
+      </tr>
+      <tr>
+        <td class="highlight">data 4</td>
+        <td>data 5</td>
+        <td>data 6</td>
+      </tr>
+    </table>
 </body>
 </html>
