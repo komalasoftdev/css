@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 2em;
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a title to content.</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::before{
+            content: "Before the title:";
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a title of profile.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div > p:first-child{
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is a profile of the coding.</p>
+        <p>this is a second profile of coding./p>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:not(.special){
+            color: olive;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a profile of the title.</p>
+    <p class="special">This is a profile.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       p:nth-child(odd){
+        color: brown;
+       } 
+    </style>
+</head>
+<body>
+    <p>this is a first profile.</p>
+    <p>This is a second profile.</p>
+    <p>This is a third profile.</p>
+</body>
+</html>

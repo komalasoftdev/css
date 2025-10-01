@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-container{
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: coral;
+        }
+        .form-container input[type=text], .form-container input[type=email]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        .form-container textarea{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid white;
+            box-sizing: border-box;
+        }
+        .form-container select{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid rebeccapurple;
+            box-sizing: border-box;
+        }
+        .form-container button{
+            background-color:greenyellow;
+            color: cadetblue;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .form-container button:hover{
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <label for="Name:">Name:</label>
+        <input type=" text" id="name" class="name" placeholder="Enter your name" />
+
+        <label for="youremail">YourEmail:</label>
+        <input type="text" name="email" id="email" placeholder="Enter your email"/>
+
+        <label for="Message">Message:</label>
+        <textarea id="Message" name="Message" placeholder="Enter your message"></textarea>
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+              <option value="UK">UK</option>
+        </select>
+        <button type="submit">Submit</button>
+        
+    </div>
+    
+</body>
+</html>

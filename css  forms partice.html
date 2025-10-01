@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-container{
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: aqua ;
+            
+        }
+        .form-container input[type=text], .form-container input[type=email]{
+            width: 100px;
+            padding:12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid rgb(64, 64, 68);
+            box-sizing: border-box;
+            
+        }
+        .form-container textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+             display: inline-block;
+             border: 1px solid salmon;
+             box-sizing: border-box;
+
+        }
+        .form-container select{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid wheat;
+            box-sizing: border-box;
+        }
+        .form-container button{
+            background-color: green;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .form-container button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Doument</h2>
+        <label for="FirstName">FirstName:</label>
+        <input type="firstname" id="name" name="name" placeholder="Enter your FirstName"/>
+        <label for="lastName">lastName :</label>
+        <input type="lastname" id="lastName" name="lastName" placeholder=" Enter your lastName"/>
+        <label for=" youremail">YourEmail:</label>
+        <input type="youremail" name="email" id="email" placeholder="Enter your Email"/>
+        <label for="Yourpassword"> Yourpassword</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password"/>
+        <label for="country">country:</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <button type="submit">Submit</button>
+
+    </div>
+</body>
+</html>
