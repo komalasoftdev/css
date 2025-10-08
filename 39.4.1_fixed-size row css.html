@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template: repeat(2, 100px) / auto;
+        }
+        .grid-container div {
+            padding: 10px;
+            background-color: cadetblue;
+            border: 6px solid #935454;
+        }
+    </style>
+</body>
+</html>
+<div class="grid-container">
+    <div>Fixed-size row</div>
+    <div>Fixed-size row</div>
+</div>

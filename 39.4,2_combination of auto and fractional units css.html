@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template: auto auto / 1fr 2fr;
+        }
+        .grid-container div {
+            padding: 10px;
+            background-color: lightyellow;
+            border: 7px solid lightgray;
+        }
+    </style>
+</body>
+</html>
+<div class="grid-container">
+    <div>auto-sized row 1</div>
+    <div>auto-sixed row 2 (twice as tall)</div>
+    <div>auto-sized row 3</div>
+    <div>auto-sized row 4 (twice as tall)</div>
+</div>

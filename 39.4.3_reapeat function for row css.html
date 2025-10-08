@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template: auto / 1fr 2fr 2fr;
+        }
+        .grid-container div {
+            padding: 10px;
+            background-color: lightcoral;
+            border: 6px solid rgb(72, 170, 170);
+        }
+    </style>
+</body>
+</html>
+<div class="grid-container">
+    <div>Auto-sized row 1</div>
+    <div>Auto-sized row 2</div>
+    <div>Auto-sized row 3</div>
+</div>
