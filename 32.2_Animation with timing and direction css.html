@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            animation: myanimationn 3s ease-in-out infinite alternate;
+        }
+        @keyframes myanimation {
+            0% { background-color: rgb(48, 146, 178); transform: translate(0);}
+            50% { background-color: aqua; transform: translate(200px);}
+            100% { background-color: rgb(21, 157, 112); transform: translate(0);}
+          }  
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
